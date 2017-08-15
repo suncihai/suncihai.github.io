@@ -1,7 +1,7 @@
 (function() {
     'use strict'
 
-    angular.module("cihaisunApp")
+    angular.module("huifengmengyeApp")
         .config(RoutesConfig);
 
 
@@ -18,27 +18,21 @@
     	 })
 
     	 // experience part
-    	 .state('experience', {
-    	 	url: '/experience',
-    	 	templateUrl: 'src/templates/experience.html'
+    	 .state('about-us', {
+    	 	url: '/about-us',
+    	 	templateUrl: 'src/templates/aboutus.html'
     	 })
 
     	 // projects part
-    	 .state('projects',{
-    	 	url: '/projects',
-    	 	templateUrl: 'src/templates/projects.html'
+    	 .state('news',{
+    	 	url: '/news',
+    	 	templateUrl: 'src/templates/news.html'
     	 })
 
          // projects part
-         .state('apps',{
-            url: '/apps',
-            templateUrl: 'src/templates/apps.html'
-         })
-
-         // test part
-         .state('test',{
-            url: '/apps/test',
-            templateUrl: 'src/templates/test.html'
+         .state('products',{
+            url: '/products',
+            templateUrl: 'src/templates/products.html'
          })
         
          // contact part
