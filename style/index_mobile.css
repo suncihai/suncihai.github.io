@@ -11,12 +11,12 @@ body {
     background-size: cover; }
     body .resume_header > div > a {
       margin-left: 8.33% !important; }
-      body .resume_header > div > a h1 {
-        font-size: 3em;
+      body .resume_header > div > a h2 {
+        font-size: 20px;
         color: white;
         border-radius: 3px;
         display: inline; }
-        body .resume_header > div > a h1:hover {
+        body .resume_header > div > a h2:hover {
           color: white; }
     body .resume_header ul {
       margin-top: 40px;
