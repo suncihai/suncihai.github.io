@@ -17,22 +17,28 @@
     	 	templateUrl: 'src/templates/home.html'
     	 })
 
-    	 // experience part
+    	 // about-us part
     	 .state('about-us', {
     	 	url: '/about-us',
     	 	templateUrl: 'src/templates/aboutus.html'
     	 })
 
-    	 // projects part
+    	 // news part
     	 .state('news',{
     	 	url: '/news',
     	 	templateUrl: 'src/templates/news.html'
     	 })
 
-         // projects part
+         // products part
          .state('products',{
             url: '/products',
             templateUrl: 'src/templates/products.html'
+         })
+         
+         //jobs part
+         .state('jobs',{
+            url: '/jobs',
+            templateUrl: 'src/templates/jobs.html'
          })
         
          // contact part

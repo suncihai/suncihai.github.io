@@ -1,0 +1,10 @@
+.jobsbox {
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+  margin: 10px auto; }
+  .jobsbox:hover {
+    opacity: 0.7;
+    background: #ddd; }
+
+/*# sourceMappingURL=jobs_desktop.css.map */
