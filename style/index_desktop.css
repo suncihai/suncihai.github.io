@@ -1,5 +1,5 @@
 body {
-font-family: 'Ubuntu', sans-serif !important;
+font-family: 'Microsoft Yahei', sans-serif !important;
 font-size: 1.5em; }
 body .resume_header {
 transition: ease 0.5s;
@@ -8,6 +8,20 @@ height:400px;
 border-bottom: 1px lightgrey solid;
 background: url(../images/homepage.jpg) no-repeat center;
 background-size: cover; }
+body .navbar{
+  background:white;
+  opacity:0.7;
+  height:80px;
+}
+.menu_table{
+  display:table-cell;
+  vertical-align:middle;
+  height:80px;
+}
+#company_name{
+   color:#385622;
+   font-size:24px;
+}
 body .resume_header > div > a {
 margin-left: 8.33% !important; }
 body .resume_header ul {
@@ -18,7 +32,7 @@ margin-left:30px;
 text-align: center;
 font-size: 14px; }
 body .resume_header ul li a {
-color:black;
+color:#385622;
 border-radius: 3px;
 text-decoration: none; }
 body .resume_header ul li a:hover {

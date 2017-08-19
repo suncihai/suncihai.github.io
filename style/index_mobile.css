@@ -1,5 +1,5 @@
 body {
-font-family: 'Ubuntu', sans-serif !important;
+font-family: 'Microsoft Yahei', sans-serif !important;
 font-size: 1.5em; }
 body .resume_header {
 transition: ease 0.5s;
@@ -7,6 +7,23 @@ height: 55vw;
 border-bottom: 1px lightgrey solid;
 background: url(../images/homepage.jpg) no-repeat center;
 background-size: cover; }
+body .navbar{
+  position:relative;
+  background:white;
+  opacity:1;
+  height:50px;
+}
+#company_name{
+   color:#385622;
+   font-size:18px;
+}
+.menu_table{
+  height:50px;
+}
+.navbar-brand{
+  height:auto;
+  padding:0;
+}
 body .resume_header > div > a {
 margin-left: 8.33% !important; }
 body .resume_header ul {
@@ -41,6 +58,7 @@ padding-right: 30px;
 height: 10px; }
 
 #mobile_layout_background{
+  display: none;
   position:absolute;
   top:0;
   left:0;
@@ -49,6 +67,7 @@ height: 10px; }
   height:100%;
 }
 #mobile_overlay{
+  display: none;
   position:absolute;
   top:0;
   right:0;
@@ -72,7 +91,18 @@ height: 10px; }
   line-height:30px;
   font-size:20px;
   margin:20px auto;
-  color:#2ab530;
+}
+.resume_mobile_header-navi li a{
+  color:#385622 !important;
+}
+#mobile_switch{
+  width:50px;
+  height:50px;
+  background-size:cover;
+  position: absolute;
+  top:0;
+  left:0;
+  background:url(../images/menu_button.png) center no-repeat;
 }
 
 /*# sourceMappingURL=index_mobile.css.map */

@@ -24,16 +24,17 @@
 </head>
 
 <body ng-app='huifengmengyeApp'>
-    <div class="navbar resume_header navbar-default col-md-12">
-        <div class="row" style="background:white;opacity:0.7;height:80px;">
+    <div class="resume_header navbar-default col-md-12">
+        <div class="row navbar">
+             <div id="mobile_switch"></div>
              <table border="0" width="100%">
                 <tr style="display:table-row;vertical-align:middle;">
-                   <td align="center" style="display:table-cell;vertical-align:middle;height:80px;">
+                   <td align="center" class="menu_table">
                         <a class="navbar-brand" ui-sref="home" style="float:none;">
-                            <div style="color:black;font-size:24px;">贵州省松桃汇丰锰业有限公司</div>
+                            <div id="company_name">贵州省松桃汇丰锰业有限公司</div>
                         </a>
                    </td>
-                   <td align="center" style="display:table-cell;vertical-align:middle;height:80px;">
+                   <td align="center" class="menu_table">
                         <ul class="resume_header-navi">
                             <li>
                                 <a ui-sref="home" ui-sref-active="activeTab" id="home_label">首页</a>
@@ -103,5 +104,7 @@
 <!-- Routes -->
 <script src="src/routes.js"></script>
 <script src="src/js/products.js"></script>
+<script src="src/js/jobs.js"></script>
+<script src="src/js/aboutus.js"></script>
 <script src="src/js/news.js"></script>
 <script src="src/js/index.js"></script>
