@@ -1,13 +1,14 @@
-.resume_home-content {
-  font-size: 1.2em;
-  padding-top: 20px; }
-  .resume_home-content img {
-    width: 1em;
-    height: 1em; }
-
-.desbox {
-  padding: 10px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px gray;
-  margin: 10px auto; }
+.plain_text{
+	color:#385622;
+}
+.color_text{
+	color:#2ab530;
+}
+.paragrah_divider{
+	width: 40px;
+    height: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #2ab350;
+}
 /*# sourceMappingURL=home_desktop.css.map */

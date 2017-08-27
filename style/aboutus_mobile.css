@@ -1,18 +1,17 @@
-.experience {
-  font-size: 11px;
-  color: grey; }
-  .experience h2 {
-    color: black; }
-  .experience .job_title {
-    color: black;
-    font-size: 15px; }
-  .experience .experience_block {
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px gray;
-    margin: 10px auto; }
-    .experience .experience_block:hover {
-      opacity: 0.7;
-      background: #ddd; }
-
+.plain_text{
+  color:#385622;
+}
+.color_text{
+  color:#2ab530;
+}
+.paragrah_divider{
+  width: 40px;
+    height: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #2ab350;
+}
+#introduction_img{
+   width:80%;  
+}
 /*# sourceMappingURL=experience_mobile.css.map */

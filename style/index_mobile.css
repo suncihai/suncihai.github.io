@@ -6,7 +6,10 @@ transition: ease 0.5s;
 height: 55vw;
 border-bottom: 1px lightgrey solid;
 background: url(../images/homepage.jpg) no-repeat center;
-background-size: cover; }
+background-size: cover; 
+padding-left:0;
+padding-right:0;
+}
 body .navbar{
   position:relative;
   background:white;
@@ -98,11 +101,15 @@ height: 10px; }
 #mobile_switch{
   width:50px;
   height:50px;
-  background-size:cover;
+  background-size:cover !important;
   position: absolute;
   top:0;
   left:0;
   background:url(../images/menu_button.png) center no-repeat;
+}
+.row{
+   margin-left:0;
+   margin-right:0;
 }
 
 /*# sourceMappingURL=index_mobile.css.map */
