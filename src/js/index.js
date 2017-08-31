@@ -8,4 +8,9 @@
       $("#mobile_layout_background").fadeIn();
       $("#mobile_overlay").fadeIn();
    });
-})()
+
+   $(".resume_header-navi li").click(function(event){
+      $(".resume_header-navi li").removeClass("active");
+      $(this).addClass("active");
+   });
+})();

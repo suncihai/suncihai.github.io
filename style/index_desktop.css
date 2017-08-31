@@ -31,9 +31,15 @@ body .resume_header ul {
 list-style: none; }
 body .resume_header ul li {
 float:left;
-margin-left:30px;
+margin-left:10px;
 text-align: center;
-font-size: 14px; }
+font-size: 14px; 
+padding:10px;
+}
+body .resume_header ul li.active{
+border:1px solid #385622;
+border-radius:3px;
+}
 body .resume_header ul li a {
 color:#385622;
 border-radius: 3px;
