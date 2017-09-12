@@ -62,7 +62,7 @@ height: 10px; }
 
 #mobile_layout_background{
   display: none;
-  position:absolute;
+  position:fixed;
   top:0;
   left:0;
   background:white;
@@ -71,7 +71,7 @@ height: 10px; }
 }
 #mobile_overlay{
   display: none;
-  position:absolute;
+  position:fixed;
   top:0;
   right:0;
   background:black;
@@ -94,6 +94,13 @@ height: 10px; }
   line-height:30px;
   font-size:20px;
   margin:20px auto;
+}
+.resume_mobile_header-navi li.active{
+border:1px solid #385622;
+border-radius:3px;
+padding:10px;
+margin-left: 0;
+width:120px;
 }
 .resume_mobile_header-navi li a{
   color:#385622 !important;
